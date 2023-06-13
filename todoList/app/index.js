@@ -19,7 +19,22 @@ yargs.command({
 // Create command
 yargs.command({
     command: 'create',
-    handler: () => {
+    builder: {
+        id: {
+            type:"number"
+        },
+        title: {
+            type: "string"
+        },
+        description: {
+            type: "string"
+        }
+    },
+    handler: (args) => {
+        const {id, title, description} = args;
+        console.log("id: ", id)
+        console.log('title: ', title);
+        console.log('description: ', description);
         console.log("create item");
     }
 });
