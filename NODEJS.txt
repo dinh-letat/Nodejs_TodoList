@@ -1,0 +1,22 @@
+*)Setup todolist: 
+npn init
+
+//run file => node 'đường dẫn file' : node app/index.js
+npm install --save-dev nodemon
+run file like live server => npm run dev
+
+*)Create file: 
+npm install yargs
+
+//import libraries yargs:
+const yargs = require('yargs');
+//create test
+yargs.command({
+    command: "test",
+    handler: () => {
+        console.log("test");
+    }
+})
+yargs.parse();
+ 
+//run file => npm run command-test
