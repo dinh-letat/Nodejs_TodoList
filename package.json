@@ -1,0 +1,22 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todolist (CRUD)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinh-letat/Nodejs_TodoList.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Le Tat Dinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinh-letat/Nodejs_TodoList/issues"
+  },
+  "homepage": "https://github.com/dinh-letat/Nodejs_TodoList#readme"
+}
